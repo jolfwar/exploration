@@ -1,0 +1,21 @@
+#header-menu .menu-item-inactive {
+    color: #34495e;
+}
+
+#header-menu .menu-item-active {
+    color: #F26322;
+}
+
+#header-menu {
+    background-color: #F8F8F8;
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-menu a {
+    color: white;
+    margin: 0 5px;
+}

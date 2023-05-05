@@ -19,3 +19,17 @@
     color: white;
     margin: 0 5px;
 }
+
+.background-color {
+    background-color: #2634426c;
+    line-height: 125%;
+}
+
+.header-main-format {
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

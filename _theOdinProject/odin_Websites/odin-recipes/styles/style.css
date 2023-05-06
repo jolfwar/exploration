@@ -23,6 +23,8 @@
 .background-color {
     background-color: #2634426c;
     line-height: 125%;
+    display: inline-block;
+    padding: 20px;
 }
 
 .header-main-format {
@@ -32,11 +34,27 @@
     text-transform: capitalize;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
-.center-image {
+.format-image-recipe {
     display: block;
-    margin: 0 auto;
+    margin: 10px auto 10px 0.1%;
     width: 500px;
     height: 500px;
+}
+
+.image-container img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transition: all 0.1s ease-in;
+}
+
+.image-container:hover img {
+    transform: scale(1.5);
+}
+
+.image-container img:not(:hover) {
+    transform: none;
 }
